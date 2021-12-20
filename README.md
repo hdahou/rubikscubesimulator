@@ -14,7 +14,7 @@ Once created, go into the folder and open the index.html file.
 
 ## Images on how to run and build the program
 
-!(https://github.com/[hdahou]/[rubikscubesimulator]/blob/[main]/gitclone.png?raw=true)
+![](https://github.com/[hdahou]/[rubikscubesimulator]/blob/[main]/gitclone.png?raw=true)
 
 
  
