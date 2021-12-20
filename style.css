@@ -1,0 +1,18 @@
+ html {
+ 	font-family:  Georgia;
+ }
+
+h1 {
+	display:  flex;
+	justify-content: left;
+}
+
+.images { 
+	display: flex; 
+	flex-direction: row;
+ }
+
+ p {
+ 	padding-top: 10px;
+ }
+

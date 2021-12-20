@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rubik's Cube Console Simulator</title>
+	<link rel="stylesheet" type="text/css" href="style.css" >
+</head>
+<body>
+	<h1>How to use the Rubik's Cube Console Simulator</h1>
+	<ul>
+		<li class="" ">Open the console and enter "cube" to view the initial cube array</li>
+		<li>Choose a move using the instructions below to print the new cube array...
+			<ul>
+				<li>Front Face Clockwise = f(cube)</li>
+				<li>Front Face Anti-Clockwise = fi(cube)</li>
+				<li>Right Face Clockwise = r(cube)</li>
+				<li>Right Face Anti-Clockwise = ri(cube)</li>
+				<li>Up Face Clockwise = u(cube)</li>
+				<li>Up Face Anti-Clockwise = ui(cube)</li>
+				<li>Back Face Clockwise = b(cube)</li>
+				<li>Back Face Anti-Clockwise bi(cube)</li>
+				<li>Left Side Clockwise = l(cube)</li>
+				<li>Left Side Anti-Clockwise = li(cube)</li>
+				<li>Down Face Clockwise = d(cube)</li>
+				<li>Down Face Anti-Clockwise = di(cube)</li>
+				<li>Reset = reset(cube)</li>
+			</ul>
+		</li>
+		<li>The cube array is demonstrated in the diagram below</li>
+		<li>The original state of the cube is indicated in the photograph below</li>
+		<li>The cube movements are visually represented in the image below</li>
+	</ul>
+		
+	<div>
+		<div id = 'images'>
+		<img src = 'flattened-cube.png' width = 200px height = 'auto'  /> 
+		<img src = 'original-state.png' width = 200px height = 'auto' /> 
+		<img src = 'rubik-cube-algorithms.png' width = 300px height = 'auto'  /> 
+		</div>
+	</div>
+	<p> Please note: The up face is array 0, left face array 1, front face array 2, right face array 3, back face array 4 and down face array 5. </p>
+	<p> You can access any particular cubie by entering in the console "cube[][]" and this will print the cubie colour. </p>
+	<script type="text/javascript" src="cube.js"></script>
+</body>
+</html>
